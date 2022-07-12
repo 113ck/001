@@ -6,9 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script>
-        alert('请输入您的年龄');
-        prompt('nian');
-        
+        var rows = prompt('请输入您需要的行数');
+        var cols = prompt('请输入您需要的列数');
+        var str = '';
+        for (i = 1; i < rows; i++) {
+            for (j = 1; j <= cols; j++) {
+                str = str + '⭐';
+        }
+        str += '\n';
+    }
     </script>
 </head>
 <body>
